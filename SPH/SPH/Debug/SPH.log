@@ -1,0 +1,339 @@
+﻿Build started 4/24/2012 4:10:30 AM.
+     1>Project "C:\Users\Yuanhui\Desktop\SPH\SPH\SPH.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\SPH.unsuccessfulbuild".
+       AddCudaCompileDeps:
+         C:\Program Files\Microsoft Visual Studio 9.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include" /I. /FIcuda_runtime.h /c C:\Users\Yuanhui\Desktop\SPH\fluids\fluid_system_host.cu 
+       AddCudaCompilePropsDeps:
+         Found "CudaToolkitCustomDir".
+         Found "AdditionalDeps".
+         Found "CompileOut".
+         Found "Include".
+         Found "Keep".
+         Found "KeepDir".
+         Found "NvccCompilation".
+         Found "NvccPath".
+         Found "RequiredIncludes".
+         Found "TargetMachinePlatform".
+         Found "CInterleavedPTX".
+         Found "CodeGeneration".
+         Found "GPUDebugInfo".
+         Found "MaxRegCount".
+         Found "PtxAsOptionV".
+         Found "Defines".
+         Found "Emulation".
+         Found "HostDebugInfo".
+         Found "FastMath".
+         Found "Optimization".
+         Found "Runtime".
+         Found "RuntimeChecks".
+         Found "TypeInfo".
+         Found "Warning".
+         Found "AdditionalOptions".
+         Found "CommandLineTemplate".
+       CudaBuild:
+         Compiling CUDA source file ..\fluids\fluid_system_host.cu...
+         cmd.exe /C "C:\Users\Yuanhui\AppData\Local\Temp\09507f05affb488286d102b4b4ae4180.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2008 -ccbin "C:\Program Files\Microsoft Visual Studio 9.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include"  -G0  --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -D_NEXUS_DEBUG -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MDd " -o "Debug\fluid_system_host.cu.obj" "C:\Users\Yuanhui\Desktop\SPH\fluids\fluid_system_host.cu"
+         
+         C:\Users\Yuanhui\Desktop\SPH\SPH>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2008 -ccbin "C:\Program Files\Microsoft Visual Studio 9.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include"  -G0  --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -D_NEXUS_DEBUG -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MDd " -o "Debug\fluid_system_host.cu.obj" "C:\Users\Yuanhui\Desktop\SPH\fluids\fluid_system_host.cu" 
+         fluid_system_host.cu
+     1>C:\Program Files\Microsoft SDKs\Windows\v6.0A\include\winnt.h(11241): warning : expression has no effect
+         
+     1>C:\Program Files\Microsoft SDKs\Windows\v6.0A\include\winnt.h(12857): warning : expression has no effect
+         
+     1>C:\Program Files\Microsoft SDKs\Windows\v6.0A\include\winuser.h(11971): warning : signed bit field of length 1
+         
+     1>C:\Program Files\Microsoft SDKs\Windows\v6.0A\include\winuser.h(11972): warning : signed bit field of length 1
+         
+     1>c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(100): warning : variable "position" was set but never used
+         
+     1>c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(378): warning : integer conversion resulted in a change of sign
+         
+     1>C:/Users/Yuanhui/Desktop/SPH/fluids/fluid_system_host.cu(376): warning : nested comment is not allowed
+         
+     1>C:/Users/Yuanhui/Desktop/SPH/fluids/fluid_system_host.cu(365): warning : variable "temp" was declared but never referenced
+         
+         tmpxft_000020a8_00000000-0_fluid_system_host.cudafe1.gpu
+         tmpxft_000020a8_00000000-5_fluid_system_host.cudafe2.gpu
+         fluid_system_host.cu
+     1>C:\Program Files\Microsoft SDKs\Windows\v6.0A\include\winnt.h(11241): warning : expression has no effect
+         
+     1>C:\Program Files\Microsoft SDKs\Windows\v6.0A\include\winnt.h(12857): warning : expression has no effect
+         
+     1>C:\Program Files\Microsoft SDKs\Windows\v6.0A\include\winuser.h(11971): warning : signed bit field of length 1
+         
+     1>C:\Program Files\Microsoft SDKs\Windows\v6.0A\include\winuser.h(11972): warning : signed bit field of length 1
+         
+     1>c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(100): warning : variable "position" was set but never used
+         
+     1>c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(378): warning : integer conversion resulted in a change of sign
+         
+     1>C:/Users/Yuanhui/Desktop/SPH/fluids/fluid_system_host.cu(376): warning : nested comment is not allowed
+         
+     1>C:/Users/Yuanhui/Desktop/SPH/fluids/fluid_system_host.cu(365): warning : variable "temp" was declared but never referenced
+         
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(61): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(61): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(61): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(62): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(62): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(62): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(63): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(63): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(63): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(68): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(68): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(68): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(68): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(68): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(68): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(68): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(68): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(68): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(68): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(68): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(68): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(68): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(68): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(68): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(68): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(68): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(68): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(378): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(381): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(192): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(193): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(1008): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(1016): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(1016): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(1017): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(1017): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(1018): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(1018): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(1019): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(1019): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(1020): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(1020): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(1021): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(1021): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(1022): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(1022): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(1023): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(1023): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(1024): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(1024): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(1057): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(1057): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(432): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(436): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(440): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(440): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(441): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(441): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(453): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(453): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(455): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(457): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(457): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(457): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(459): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(467): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(497): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(503): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(503): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(522): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(527): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(842): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(850): Warning: Cannot tell what pointer points to, assuming global memory space
+         ./c:\users\yuanhui\desktop\sph\fluids\fluid_system_kern.cu(850): Warning: Cannot tell what pointer points to, assuming global memory space
+     1>ptxas C : /Users/Yuanhui/AppData/Local/Temp/tmpxft_000020a8_00000000-1_fluid_system_host.ptx, line 2343; warning : Double is not supported. Demoting to float
+         tmpxft_000020a8_00000000-0_fluid_system_host.cudafe1.cpp
+         tmpxft_000020a8_00000000-11_fluid_system_host.ii
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 9.0\VC\bin\CL.exe /c /IC:\Users\Yuanhui\Desktop\SPH\SPH\fluids /IC:\Users\Yuanhui\Desktop\SPH\common /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc90.pdb" /Gd /TP /analyze- /errorReport:prompt ..\common\geomx.cpp ..\common\gl_helper.cpp ..\common\matrix.cpp ..\common\mdebug.cpp ..\common\mtime.cpp ..\common\point_set.cpp ..\common\vector.cpp ..\fluids\fluid.cpp ..\fluids\SPH_sim.cpp ..\main.cpp
+         main.cpp
+     1>c:\users\yuanhui\desktop\sph\main.cpp(127): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yuanhui\desktop\sph\main.cpp(128): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yuanhui\desktop\sph\main.cpp(129): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yuanhui\desktop\sph\main.cpp(130): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yuanhui\desktop\sph\main.cpp(134): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\yuanhui\desktop\sph\main.cpp(138): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\yuanhui\desktop\sph\main.cpp(155): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\main.cpp(155): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\main.cpp(156): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\main.cpp(210): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\main.cpp(211): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\main.cpp(212): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\main.cpp(265): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>c:\users\yuanhui\desktop\sph\main.cpp(265): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>c:\users\yuanhui\desktop\sph\main.cpp(265): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>c:\users\yuanhui\desktop\sph\main.cpp(335): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\main.cpp(397): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\main.cpp(409): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\main.cpp(415): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\main.cpp(416): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\main.cpp(421): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\main.cpp(427): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\main.cpp(428): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\main.cpp(431): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\main.cpp(437): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\main.cpp(438): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\main.cpp(441): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\main.cpp(471): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\main.cpp(473): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>c:\users\yuanhui\desktop\sph\main.cpp(473): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>c:\users\yuanhui\desktop\sph\main.cpp(473): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>c:\users\yuanhui\desktop\sph\main.cpp(508): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\yuanhui\desktop\sph\main.cpp(508): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\yuanhui\desktop\sph\main.cpp(508): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\yuanhui\desktop\sph\main.cpp(508): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\yuanhui\desktop\sph\main.cpp(508): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\yuanhui\desktop\sph\main.cpp(508): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\yuanhui\desktop\sph\main.cpp(512): warning C4305: '=' : truncation from 'double' to 'float'
+         SPH_sim.cpp
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(128): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(160): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(160): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(160): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(155): warning C4101: 'vnumber' : unreferenced local variable
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(156): warning C4101: 'number' : unreferenced local variable
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(204): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(207): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(208): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(209): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(212): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(230): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(239): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(243): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(243): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(243): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(250): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(250): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(250): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(255): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(260): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(260): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(260): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(263): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(267): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(267): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(267): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(276): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(276): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(276): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(282): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(282): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(282): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(308): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(309): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(421): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(425): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(425): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(494): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(495): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(454): warning C4101: 'dat1_end' : unreferenced local variable
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(555): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(556): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(557): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\fluids\sph_sim.cpp(506): warning C4101: 'dat1_end' : unreferenced local variable
+         fluid.cpp
+         vector.cpp
+     1>c:\users\yuanhui\desktop\sph\common\matrix.cci(1842): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 9.0\vc\include\stdio.h(237) : see declaration of 'fopen'
+     1>c:\users\yuanhui\desktop\sph\common\matrix.cci(1847): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 9.0\vc\include\stdio.h(366) : see declaration of 'sprintf'
+         point_set.cpp
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(73): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(75): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(102): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(104): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(119): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(139): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(141): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(156): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(157): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(158): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(159): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(264): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(264): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(264): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(265): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(265): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(265): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(265): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(276): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(276): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(276): warning C4244: 'argument' : conversion from 'double' to 'GLfloat', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(290): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(294): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(295): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(296): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(297): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(298): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(421): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(421): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yuanhui\desktop\sph\common\point_set.cpp(421): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+         mtime.cpp
+     1>c:\users\yuanhui\desktop\sph\common\mtime.cpp(348): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\mtime.cpp(355): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\mtime.cpp(363): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\mtime.cpp(490): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+         mdebug.cpp
+         matrix.cpp
+     1>c:\users\yuanhui\desktop\sph\common\matrix.cci(1842): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 9.0\vc\include\stdio.h(237) : see declaration of 'fopen'
+     1>c:\users\yuanhui\desktop\sph\common\matrix.cci(1847): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 9.0\vc\include\stdio.h(366) : see declaration of 'sprintf'
+         gl_helper.cpp
+     1>c:\users\yuanhui\desktop\sph\common\gl_helper.cpp(40): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\gl_helper.cpp(41): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\gl_helper.cpp(42): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\gl_helper.cpp(43): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\gl_helper.cpp(44): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\gl_helper.cpp(45): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\gl_helper.cpp(73): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\gl_helper.cpp(73): warning C4244: 'argument' : conversion from 'int' to 'GLfloat', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\gl_helper.cpp(81): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yuanhui\desktop\sph\common\gl_helper.cpp(81): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yuanhui\desktop\sph\common\gl_helper.cpp(81): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yuanhui\desktop\sph\common\gl_helper.cpp(101): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\yuanhui\desktop\sph\common\gl_helper.cpp(268): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yuanhui\desktop\sph\common\gl_helper.cpp(322): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yuanhui\desktop\sph\common\gl_helper.cpp(323): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yuanhui\desktop\sph\common\gl_helper.cpp(324): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\yuanhui\desktop\sph\common\gl_helper.cpp(325): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+         geomx.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+         C:\Program Files\Microsoft SDKs\Windows\v6.0A\bin\rc.exe /fo"Debug\SPH.exe.embed.manifest.res" Debug\SPH_manifest.rc 
+         Microsoft (R) Windows (R) Resource Compiler Version 6.0.5724.0
+         
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         
+       Link:
+         C:\Program Files\Microsoft Visual Studio 9.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Yuanhui\Desktop\SPH\Debug\SPH.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Yuanhui\Desktop\SPH /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.0\lib\Win32" cudart.lib cuda.lib cutil32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SPH.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Yuanhui\Desktop\SPH\Debug\SPH.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Yuanhui\Desktop\SPH\Debug\SPH.lib" /MACHINE:X86 Debug\fluid_system_host.cu.obj
+         Debug\SPH.exe.embed.manifest.res
+         Debug\geomx.obj
+         Debug\gl_helper.obj
+         Debug\matrix.obj
+         Debug\mdebug.obj
+         Debug\mtime.obj
+         Debug\point_set.obj
+         Debug\vector.obj
+         Debug\fluid.obj
+         Debug\SPH_sim.obj
+         Debug\main.obj
+     1>gl_helper.obj : error LNK2001: unresolved external symbol _pglCheckFramebufferStatusEXT
+     1>gl_helper.obj : error LNK2001: unresolved external symbol _pglActiveTextureARB
+     1>gl_helper.obj : error LNK2001: unresolved external symbol _pglFramebufferTexture2DEXT
+     1>gl_helper.obj : error LNK2001: unresolved external symbol _pglBindFramebufferEXT
+     1>gl_helper.obj : error LNK2001: unresolved external symbol _pglGenFramebuffersEXT
+     1>C:\Users\Yuanhui\Desktop\SPH\Debug\SPH.exe : fatal error LNK1120: 5 unresolved externals
+     1>Done Building Project "C:\Users\Yuanhui\Desktop\SPH\SPH\SPH.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:52.91

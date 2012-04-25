@@ -1,0 +1,15 @@
+﻿Build started 4/25/2012 7:05:20 AM.
+     1>Project "D:\CIS565_Final\SPH\SPH\SPH.vcxproj" on node 2 (clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\SPH.lastbuildstate".
+       CudaClean:
+         cmd.exe /C "C:\Users\Tao\AppData\Local\Temp\2194ecc6d43343a59d7be248a1c55e54.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\bin\nvcc.exe" -ccbin "c:\Program Files\Microsoft Visual Studio 9.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\include"    --keep-dir "Release" -maxrregcount=0  --machine 32 --compile      -Xcompiler "/EHsc /nologo /Od /Zi  /MD " -o "Release\fluid_system_host.cu.obj" "D:\CIS565_Final\SPH\fluid_system_host.cu" -clean
+         
+         D:\CIS565_Final\SPH\SPH>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\bin\nvcc.exe" -ccbin "c:\Program Files\Microsoft Visual Studio 9.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\include"    --keep-dir "Release" -maxrregcount=0  --machine 32 --compile      -Xcompiler "/EHsc /nologo /Od /Zi  /MD " -o "Release\fluid_system_host.cu.obj" "D:\CIS565_Final\SPH\fluid_system_host.cu" -clean 
+         Deleting file "Release\..\fluid_system_host.cu.deps".
+     1>Done Building Project "D:\CIS565_Final\SPH\SPH\SPH.vcxproj" (clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.18

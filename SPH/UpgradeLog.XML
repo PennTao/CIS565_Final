@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="fluids_2008_GPU">
+</Property><Property Name="Solution File" Value="C:\Users\Yuanhui\Desktop\fluids_v2\fluids_2008_GPU.sln">
+</Property><Property Name="Date" Value="Monday, April 23, 2012">
+</Property><Property Name="Time" Value="22:21 PM">
+</Property></Properties><Event ErrorLevel="0" Project="fluids_CUDA" Source="fluids_CUDA.vcproj" Description="Converting project file 'C:\Users\Yuanhui\Desktop\fluids_v2\fluids_CUDA.vcproj'.">
+</Event><Event ErrorLevel="1" Project="fluids_CUDA" Source="fluids_CUDA.vcproj" Description="VCConvertEngine.dll encountered an error.">
+</Event><Event ErrorLevel="1" Project="fluids_CUDA" Source="fluids_CUDA.vcproj" Description="VCConvertEngine.dll encountered an error.">
+</Event><Event ErrorLevel="1" Project="fluids_CUDA" Source="fluids_CUDA.vcproj" Description="VCConvertEngine could not convert attribute ConfigurationType = 1 under Configuration Debug|Win32.">
+</Event><Event ErrorLevel="1" Project="fluids_CUDA" Source="fluids_CUDA.vcproj" Description="VCConvertEngine could not convert attribute CharacterSet = 1 under Configuration Debug|Win32.">
+</Event><Event ErrorLevel="2" Project="fluids_CUDA" Source="fluids_CUDA.vcproj" Description="The imported project &quot;C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\NvCudaDriverApi.v4.1.targets&quot; was not found. Confirm that the path in the &lt;Import&gt; declaration is correct, and that the file exists on disk.  C:\Users\Yuanhui\Desktop\fluids_v2\fluids_CUDA.vcxproj">
+</Event><Event ErrorLevel="2" Project="C:\Users\Yuanhui\Desktop\fluids_v2\fluids_CUDA.vcproj" Source="" Description="The following error has occurred during XML parsing:&#xA;&#xA;File: C:\Users\Yuanhui\Desktop\fluids_v2\fluids_CUDA.vcproj&#xA;Line: 31&#xA;Column: 5&#xA;Error Message:&#xA;System error: -2146233088.&#xA;&#xA;The file 'C:\Users\Yuanhui\Desktop\fluids_v2\fluids_CUDA.vcproj' has failed to load.">
+</Event><Event ErrorLevel="2" Project="fluids_CUDA" Source="fluids_CUDA.vcproj" Description="Project upgrade failed.">
+</Event><Event ErrorLevel="3" Project="fluids_CUDA" Source="fluids_CUDA.vcproj" Description="Not Converted">
+</Event><Event ErrorLevel="0" Project="" Source="fluids_2008_GPU.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="fluids_2008_GPU.sln" Description="Converted">
+</Event></UpgradeLog>

@@ -362,7 +362,7 @@
 			speedLimit = simData.speedLimit;
 			speedLimit2 = speedLimit*speedLimit;
 			particleRadius = simData.particleRadius;
-			stiff = 10000.0;//simData.stiffness;
+			stiff = 10000;//simData.stiffness;
 			damp =  simData.damp;
 			simScale = simData.sim_scale;
 			min = simData.min;//*/make_float3(-25,-25,0);
