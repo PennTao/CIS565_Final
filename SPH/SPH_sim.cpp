@@ -31,7 +31,7 @@ misrepresented as being the original software.
 #include "scann.cuh"
 #include "fluid_system_host.cuh"
 //#include <thrust/scan.h>
-#define COLLI_DETECT	0.0001f
+#define COLLI_DETECT	0.00001f
 
 
 extern int max_triangle_number;
