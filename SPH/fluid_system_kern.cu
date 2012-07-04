@@ -35,7 +35,7 @@ misrepresented as being the original software.
 //#include <thrust/scan.h>
 #define TOTAL_THREADS		65536
 #define BLOCK_THREADS		256
-#define MAX_NBR				80
+#define MAX_NBR				64
 
 __constant__	FluidParams		simData;		// simulation data (on device)
 
